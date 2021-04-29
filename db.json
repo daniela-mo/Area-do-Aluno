@@ -1,0 +1,32 @@
+{
+  "aluno": [
+    {
+      "nome": "Daniela",
+      "sobrenome": "Oliveira",
+      "CPF": "438.458.648-50",
+      "RGM": "54321",
+      "senha": "123",
+      "id": 1
+    }
+  ],
+  "eventos": [
+    {
+      "nome": "Portugues",
+      "horas": "5",
+      "data": "2021-04-29",
+      "id": 1
+    },
+    {
+      "nome": "Trainee",
+      "horas": "8",
+      "data": "2021-04-29",
+      "id": 2
+    },
+    {
+      "nome": "Banco de Dados",
+      "horas": "17",
+      "data": "2021-04-29",
+      "id": 3
+    }
+  ]
+}
