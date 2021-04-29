@@ -31,10 +31,14 @@
         </div>
       </form>
 
-      <a href="" class="container__login__reset">
+      <a href="#" class="container__login__reset">
+        <img src="@/assets/key.svg" class="container__login__reset__rgm" />
         esqueceu ou deseja efetuar o reset da sua senha?</a
       >
-      <a href="" class="container__login__reset">esqueceu o seu RGM?</a>
+      <a href="#" class="container__login__reset">
+        <img src="@/assets/rgm.svg" class="container__login__reset__rgm" />
+        esqueceu o seu RGM?</a
+      >
     </div>
   </div>
 </template>
@@ -134,6 +138,11 @@ export default {
       cursor: pointer;
       transition: 800ms;
       outline: 0;
+      &__rgm {
+        width: 14px;
+        height: 14px;
+        margin-right: 3px;
+      }
     }
   }
 }
